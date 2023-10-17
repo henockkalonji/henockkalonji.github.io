@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+div{
+    background-color: black;
+    color: white;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+}
+div ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    list-style-type: none;
+
+}
+div ul li a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+div ul li a:hover{
+    border-bottom: 2px solid lightblue;
+    color: yellow;
+}
